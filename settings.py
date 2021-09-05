@@ -13,10 +13,10 @@ class Config:
         self.wif = ""
         
         # Name of the payment account
-        self.payingAccount = "cotina"
+        self.payingAccount = "ecosynthesizer"
 
         # The account from which delegations must be tracked
-        self.account_name = "cotina"
+        self.account_name = "ecosynthesizer"
 
         # Percentage of the curation reward to send back. Allow it to be more than 100%. 
         self.delegator_share = 60
@@ -40,7 +40,7 @@ class Config:
         self.hours = 24
 
         # List of curators to be rewarded (Leaving the list empty is equivalent to disabling this functionality)
-        self.curators = ["frankenstein"]
+        self.curators = ["dr-frankenstein"]
 
         # Delegators memo
         self.delegators_memo = "Ecosynthesizer Delegation tip [%s -- %s]"
